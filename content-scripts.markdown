@@ -5,18 +5,18 @@ into the page before the network responds with html. Ad blockers are content scr
 5.5 of the 7 extensions I've made are content scripts.
 
 Content scripts:
-Need to run before or with the page's load:
-1. Scout - modify google
-2. HMU extension - post to my social network right from facebook
-3. Facebook comments extension - click a browser button and inject facebook comments.
-4. Extension for Sergey - add thred search results to facebook search
-5. Extension for Jobs2Web - on a person's LinkedIn, add them to the database
+Need to run before or with the page's load:<br>
+1. Scout - modify google<br>
+2. HMU extension - post to my social network right from facebook<br>
+3. Facebook comments extension - click a browser button and inject facebook comments.<br>
+4. Extension for Sergey - add thred search results to facebook search<br>
+5. Extension for Jobs2Web - on a person's LinkedIn, add them to the database<br>
 
-Injects menu when you click a browser button:
-6. Extension for TrackIf - injects a menu for tracking if a products price changes
+Injects menu when you click a browser button:<br>
+6. Extension for TrackIf - injects a menu for tracking if a products price changes<br>
 
-Omnibox extension:
-7. tweet-bar: Write a tweet from the address bar.
+Omnibox extension:<br>
+7. tweet-bar: Write a tweet from the address bar.<br>
 
 There's shit a mobile content script extension could do to make skyfire the best browser out there.
 Mobile web developers would know, I don't do enough with mobile web to know how to make the browsing experience better.
@@ -27,10 +27,10 @@ Maybe you even expose a siri api to content scripts! The possibilities are endle
 Api:
 Declarative api's put you in a box, so let's not do that, even though it's the easy way out.
 
-Each extension can have one event page in the background.
+Each extension can have one event page in the background.<br>
 It's not continually running, but runs once, and the javascript binds to the events it cares about.
 
-We could call the extension namespace simply `skyfire`
+We could call the extension namespace simply `skyfire`<br>
 To register a content script, you might do this:
 ```
 skyfire.on('url change', function(url) {
