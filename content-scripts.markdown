@@ -20,8 +20,7 @@ Omnibox extension:<br>
 > 7. tweet-bar: Write a tweet from the address bar.<br>
 
 Mobile also presents a new realm of potential content scripts, turn numbers into call buttons, personalize based on location,
-maybe even use a siri api? Mobile presents some really interesting possibilities.
-
+maybe even use a siri api? Mobile presents some really interesting possibilities. To make this secure, 
 
 Now, how to implement this on all browsers? I think the best way might be to use proxies -
 which I think skyfire already has architected. On the server, content scripts are just injected to the html.
